@@ -1,0 +1,11 @@
+1. Create a Database is name of covid19
+=> create database covid19;
+
+2. Create a table of user id and password
+=> create table users(name varchar(20),id varchar(20) primary key,pass varchar(20));
+
+3. Create a table of bihar using store store data of bihar public 
+=> create table bihar(name varchar(20),mail varchar(50),id varchar(20) primary key,dis varchar(20));
+
+4. Create a table of mailsend using store of mail and otp for update password.
+=> CREATE TABLE mailsend(mail varchar(30),otp varchar(5));

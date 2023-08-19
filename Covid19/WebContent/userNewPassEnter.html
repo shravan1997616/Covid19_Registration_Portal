@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Covid19</title>
+		
+		<link rel="stylesheet" href="CSS/dilogDesine.css" />
+		<style>
+			 .register{
+			 	
+				background-color:rgba(0,0,0,0.5);
+				width:100%;
+				font-size:20px;
+				border-radius:10px;
+				border: 1px soid rgba(255,255,255,0.3);
+				box-shadow: 2px,2px,15px rgba(0,0,0,0.3);
+				color:#fff;
+				
+			} 
+			input#email{
+				width:150px;
+				border:1px solid #ddd;
+				border-radius: 3px;
+				outline:0;
+				padding:7px;
+				background-color:#fff;
+				box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="register">
+				<h3>Update Password</h3>
+				<form action="userSetPassword.jsp" id="register" method="post">
+					<label>Enter User ID:</label>
+					<input  name="userID" id="email" required="required" type="text" placeholder="Enter User ID"><br><br>
+					<label>Enter New Password:</label>
+					<input  name="newPass" id="email" required="required" type="text" placeholder="Enter New Password"><br><br>
+					<label>Re Enter New Password:</label>
+					<input  name="ReNewPass" id="email" required="required" type="text" placeholder="Re Enter New Password"><br><br>
+					<center><input type="submit" id="submit" name="submit" value="Update"></center>
+				</form>
+			</div>
+			
+		</div>
+	</body>
+</html>
